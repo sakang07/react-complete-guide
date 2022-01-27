@@ -1,13 +1,16 @@
+import Todo from './components/Todo';
+import Modal from './components/Modal';
+import Backdrop from './components/Backdrop';
+
 function App() {
   return (
     <div>
       <h1>My Todos</h1>
-      <div className="card">
-        <h2>TITLE</h2>
-        <div className="actions">
-          <button className="btn">Delete</button>
-        </div>
-      </div>
+      <Todo title="1" />
+      <Todo title="2" />
+      <Todo title="3" />
+      <Modal />
+      <Backdrop />
     </div>
   );
 }
