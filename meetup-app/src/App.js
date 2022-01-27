@@ -1,6 +1,4 @@
 import Todo from './components/Todo';
-import Modal from './components/Modal';
-import Backdrop from './components/Backdrop';
 
 function App() {
   return (
@@ -9,8 +7,6 @@ function App() {
       <Todo title="1" />
       <Todo title="2" />
       <Todo title="3" />
-      <Modal />
-      <Backdrop />
     </div>
   );
 }
